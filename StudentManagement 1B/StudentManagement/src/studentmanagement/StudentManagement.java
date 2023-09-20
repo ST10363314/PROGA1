@@ -49,7 +49,7 @@ public class StudentManagement {
                     viewStudentReport();
                     break;
                 case 5:
-                    System.out.println("Exiting the application.");
+                    System.out.println("Exiting the application.");//(W3Schools, n.d.)
                     
                     // Close the scanner before exiting
                     scanner.close();
@@ -124,7 +124,7 @@ public class StudentManagement {
                 return scanner.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input. Please enter a valid integer.");
-                scanner.nextLine(); // Consume the invalid input
+                scanner.nextLine(); // Consume the invalid input //(www.w3schools.com, n.d.)
             }
         }
     }
@@ -136,4 +136,7 @@ public class StudentManagement {
     }
         
     }
-    
+//W3Schools (n.d.). Java Switch. [online] www.w3schools.com. Available at: https://www.w3schools.com/java/java_switch.asp
+//www.w3schools.com. (n.d.). Java catch Keyword. [online] Available at: https://www.w3schools.com/java/ref_keyword_catch.asp [Accessed 20 Sep. 2023].
+
+‌   
